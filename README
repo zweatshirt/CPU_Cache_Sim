@@ -1,0 +1,21 @@
+#Based off Cache Lab from UChicago CMSC 15400: Intro to Computer Systems
+
+About:
+A cache simulator implemented in C for my computer systems class. The simulator takes a Valgrind trace file as input as well as parameters for the cache and accurately outputs the expected number of hits, misses, and evictions for the trace file. This project was based off the Cache Lab from CMU.
+
+To compile, run:
+    `linux> make`
+
+To test correctness of simulator, run:
+    `linux> ./test-csim`
+
+******
+Files:
+******
+
+csim.c       Cache simulator
+Makefile     Builds the simulator and tools
+README       This file
+csim-ref*    The executable reference cache simulator
+test-csim*   Tests your cache simulator
+traces/      Trace files used by test-csim.c

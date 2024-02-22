@@ -1,4 +1,4 @@
-#Based off Cache Lab from UChicago CMSC 15400: Intro to Computer Systems
+## Based off Cache Lab from UChicago CMSC 15400: Intro to Computer Systems
 
 About:
 A cache simulator implemented in C for my computer systems class. 
